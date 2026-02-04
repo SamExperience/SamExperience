@@ -3,7 +3,7 @@ Samuele Deriu | Full-Stack Solutions Architect
 Delivering Scalable, Secure, and High-Performance Web Applications
 I specialize in building enterprise-grade systems that drive business value. My focus is on creating robust architectures using Angular and Node.js, ensuring security, scalability, and an exceptional user experience.
 
-🛠️ Core Competencies & Tech Stack
+🛠️ Core Competencies & Tech Stack                                                                                                                                                                                      
   Frontend Architecture:
     Angular RxJS TypeScript
 
