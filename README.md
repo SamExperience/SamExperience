@@ -1,33 +1,43 @@
-Samuele Deriu | Full-Stack Solutions Architect
+# Samuele Deriu | Full-Stack Developer
 
-Delivering Scalable, Secure, and High-Performance Web Applications
-I specialize in building enterprise-grade systems that drive business value. My focus is on creating robust architectures using Angular and Node.js, ensuring security, scalability, and an exceptional user experience.
+**Building modern and reliable web applications**
 
-🛠️ Core Competencies & Tech Stack                                                                                                                                                                                      
-  Frontend Architecture:
-    Angular RxJS TypeScript
+I am a Full-Stack Developer focused on translating practical requirements into functional software. I work across the entire stack—using tools like Angular, React, and Node.js—to build applications that are intuitive, performant, and grounded in real-world needs. I value clean code, pragmatic problem-solving, and continuous learning.
 
-  Backend Engineering:
-    Node.js PostgreSQL Redis
-  
-  DevOps & Infrastructure:
-    Docker Security
+## Core Competencies & Tech Stack
 
-💼 Featured Projects
-  📺 GBN Horizon
-  Enterprise-Grade Content Management Platform A full-stack mono-repo solution designed for institutional content distribution across web and TV terminals.
-    Architecture: Centralized REST API (Node.js/Express) serving multiple frontends.
-    Key Features: Real-time device synchronization, RBAC (Role-Based Access Control), automated media optimization.
-    Tech Stack: Angular 20, Node.js, PostgreSQL, Redis, Docker.
-  
-  🌐 SamExperience Portfolio
-  Modern Professional Showcase A high-performance Progressive Web App (PWA) demonstrating best practices in modern web development.
-    Focus: SEO optimization, responsive design, and accessible UI/UX.
-    Tech Stack: Angular 20, SCSS, Server-Side Rendering (SSR).
-    📈 GitHub Analytics
-    Sam's GitHub stats
+* **Frontend:** Angular · React · RxJS · TypeScript
+* **Backend:** Node.js · PostgreSQL · Redis · Prisma · SQLite
+* **DevOps & Infrastructure:** Docker · Security
 
-📫 Connect
-📧 Email: 
-samuele.deriu.dev@gmail.com
-💼 LinkedIn: www.linkedin.com/in/samuelederiu
+## Featured Projects
+
+### BoxApp
+*Interactive E-Training Boxing Platform*  
+A full-stack application delivering real-time audio and visual coaching, driven by an AI-powered workout orchestration engine.
+* **Key Features:** Finite State Machine (FSM) workout orchestrator, 3-layer audio engine, real-time coaching feedback.
+* **Tech Stack:** React, TypeScript, Node.js, Express, SQLite, Prisma, SCSS, Vite.
+
+### AI Jira Project Manager
+*Intelligent Automation Framework*  
+An n8n-powered automation system that leverages Gemini AI to manage Jira tasks and workflows seamlessly via Telegram across multiple languages.
+* **Key Features:** Conversational task management, real-time intent detection, automated workflow triggers, Google Sheets activity logging.
+* **Tech Stack:** JavaScript, n8n, Gemini AI, Telegram Bot API, Google Sheets API.
+
+### GBN Horizon
+*Enterprise-Grade Digital Signage & Management System*  
+A robust full-stack ecosystem engineered for real-time institutional content distribution across desktop widgets and TV terminals.
+* **Architecture:** Centralized REST API (Node.js/Express) serving multiple interactive frontends.
+* **Key Features:** Real-time device synchronization, strict Role-Based Access Control (RBAC), custom admin dashboard.
+* **Tech Stack:** Angular 20, Node.js, PostgreSQL, Redis, Docker.
+
+### Portfolio
+*Modern Professional Showcase*  
+A high-performance Single Page Application (SPA) demonstrating industry best practices in modern web development, adaptive theming, and optimized performance.
+* **Focus:** Deep SEO optimization, zero First Contentful Paint delays, native multi-language support.
+* **Tech Stack:** Angular 20, RxJS, SCSS, Node.js.
+
+## Let's Connect
+
+* **Email:** [samuele.deriu.dev@gmail.com](mailto:samuele.deriu.dev@gmail.com)
+* **LinkedIn:** [linkedin.com/in/samuelederiu](https://www.linkedin.com/in/samuelederiu)
