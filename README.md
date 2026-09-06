@@ -1,43 +1,46 @@
-# Samuele Deriu | Full-Stack Developer
+# Samuele Deriu | Software Engineer
 
-**Building modern and reliable web applications**
+**React · Angular · TypeScript · Node.js — Geneva, Switzerland**
 
-I am a Full-Stack Developer focused on translating practical requirements into functional software. I work across the entire stack—using tools like Angular, React, and Node.js—to build applications that are intuitive, performant, and grounded in real-world needs. I value clean code, pragmatic problem-solving, and continuous learning.
+I build web applications where the front end and the back end have to hold together: clear architecture, data validated at the boundaries, well-separated responsibilities and code that stays maintainable.
 
-## Core Competencies & Tech Stack
+## Tech Stack
 
-* **Frontend:** Angular · React · RxJS · TypeScript
-* **Backend:** Node.js · PostgreSQL · Redis · Prisma · SQLite
-* **DevOps & Infrastructure:** Docker · Security
+* **Frontend:** React · Angular · TypeScript · RxJS · SCSS
+* **Backend:** Node.js · Express · REST APIs · PostgreSQL · Redis · Prisma · SQLite
+* **Security:** OAuth 2.0 · JWT · role-based access control · Zod schema validation
+* **Testing:** Playwright · Jest · Supertest
+* **DevOps:** Docker · Docker Compose · Nginx
+* **Also:** Python / Flask · Java / Spring
 
-## Featured Projects
+## Projects
 
-### BoxApp
-*Interactive E-Training Boxing Platform*  
-A full-stack application delivering real-time audio and visual coaching, driven by an AI-powered workout orchestration engine.
-* **Key Features:** Finite State Machine (FSM) workout orchestrator, 3-layer audio engine, real-time coaching feedback.
-* **Tech Stack:** React, TypeScript, Node.js, Express, SQLite, Prisma, SCSS, Vite.
+### [GBN-Horizon](https://github.com/SamExperience/gbn-horizon-showcase) — Digital Signage & Management System
 
-### AI Jira Project Manager
-*Intelligent Automation Framework*  
-An n8n-powered automation system that leverages Gemini AI to manage Jira tasks and workflows seamlessly via Telegram across multiple languages.
-* **Key Features:** Conversational task management, real-time intent detection, automated workflow triggers, Google Sheets activity logging.
-* **Tech Stack:** JavaScript, n8n, Gemini AI, Telegram Bot API, Google Sheets API.
+Case study — source code private (NDA). Full-stack platform for Geneva Business News: two Angular PWAs (admin back-office and TV display client) on a Node.js/Express API over PostgreSQL, with JWT authentication, three-role RBAC, Redis-backed brute-force lockout, hashed audit logging and Playwright end-to-end tests. Fully containerised with Docker Compose.
 
-### GBN Horizon
-*Enterprise-Grade Digital Signage & Management System*  
-A robust full-stack ecosystem engineered for real-time institutional content distribution across desktop widgets and TV terminals.
-* **Architecture:** Centralized REST API (Node.js/Express) serving multiple interactive frontends.
-* **Key Features:** Real-time device synchronization, strict Role-Based Access Control (RBAC), custom admin dashboard.
-* **Tech Stack:** Angular 20, Node.js, PostgreSQL, Redis, Docker.
+`Angular 20 · TypeScript · Node.js · Express · PostgreSQL 15 · Redis 7 · Docker Compose · Playwright · PWA`
 
-### Portfolio
-*Modern Professional Showcase*  
-A high-performance Single Page Application (SPA) demonstrating industry best practices in modern web development, adaptive theming, and optimized performance.
-* **Focus:** Deep SEO optimization, zero First Contentful Paint delays, native multi-language support.
-* **Tech Stack:** Angular 20, RxJS, SCSS, Node.js.
+### [BoxApp](https://github.com/SamExperience/E-training-BoxApp-showcase) — AI-assisted boxing coaching MVP
 
-## Let's Connect
+Case study — source code private. Built during an internship at Boxygène Sport Club. React front end organised around a finite state machine, Zod runtime validation and a Data Mapper isolating the UI from the AI back end, plus a Node.js/Express authentication micro-service with Google OAuth 2.0.
 
-* **Email:** [samuele.deriu.dev@gmail.com](mailto:samuele.deriu.dev@gmail.com)
+`React 18 · TypeScript 5.6 · Vite 6 · Zod · SCSS · Node.js 20 · Express 5 · Prisma · SQLite · Docker · Nginx`
+
+### [Portfolio](https://github.com/SamExperience/Portfolio) — Angular SPA · [live](https://samexperience.github.io/Portfolio/)
+
+Public source code. Standalone components, lazy loading, three languages handled in RxJS with client-side caching, light/dark theme following the system preference, and a Node.js pre-build step generating responsive WebP images.
+Lighthouse: 100 performance · 100 best practices · 91 accessibility · 83 SEO.
+
+`Angular 20 · TypeScript · RxJS · SCSS · Node.js · GitHub Pages`
+
+### [AI Jira Manager](https://github.com/SamExperience/AI-jira-project-manager) — Natural-language Jira assistant
+
+Open source. n8n orchestration connecting Telegram, Jira Cloud and Google Gemini. Every model response is validated and normalised before the API call; an incomplete instruction triggers a clarification request instead of a silent failure.
+
+`n8n · Google Gemini · Jira REST API · Telegram Bot API · Google Sheets API · Docker · JavaScript`
+
+## Contact
+
+* **Email:** samuele.deriu.dev@gmail.com
 * **LinkedIn:** [linkedin.com/in/samuelederiu](https://www.linkedin.com/in/samuelederiu)
